@@ -26,7 +26,7 @@ import { store } from '../data/store'
   <div class="hero d-flex justify-content-center">
     <div class="container-hero">
       <div class="hero-head d-flex">
-        <div class="logo-container d-flex align-items-center pb-4">
+        <div class="logo-container d-flex align-items-center">
           <img src="../../public/img/avada-movers-logo.png" alt="">
         </div>
         <div class="menu-container d-flex align-items-center justify-content-end">
@@ -59,12 +59,12 @@ import { store } from '../data/store'
   .hero{
     background-image: url("../../public/img/avada-movers-homeherobackground-final.jpg");
     background-size: cover;
-    height: 1590px;
+    height: 800px;
     .container-hero{
       width: 60%;
       .hero-head{
         width: 100%;
-        height: 200px;
+        height: 100px;
         .logo-container{
           width: 30%;
           height: 100%;
@@ -88,14 +88,14 @@ import { store } from '../data/store'
         }
       }
       .hero-center{
-        height: calc(1590px - 200px);
+        height: calc(800px - 100px);
         h4{
           color: #8f8f8f;
           font-weight: 700;
           font-size: .9rem;
         }
         h1{
-          font-size: 3rem;
+          font-size: 3.5rem;
         }
 
       }

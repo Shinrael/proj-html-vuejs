@@ -33,11 +33,11 @@ import { store } from '../data/store'
 <template>
   <header class="d-flex justify-content-center ">
     <div class="container-header d-flex">
-      <div class="h-left d-flex text-white align-items-center ">
+      <div class="h-left d-flex text-white align-items-center pt-2">
         <i class="fa-solid fa-phone-flip me-3"></i>
         <p>Call us for a Free Quote: 1.800.555.6789</p>
       </div>
-      <div class="h-right d-flex align-items-center justify-content-end">        
+      <div class="h-right d-flex align-items-center justify-content-end pt-2">        
           <ul class="list-inline ">
             <li
               v-for="icon in socialIcon"
@@ -56,7 +56,7 @@ import { store } from '../data/store'
 
 <style lang="scss" scoped>
   header{
-    height: 90px;
+    height: 50px;
     background-color: #6bbb14;
     .container-header{
       width: 60%;
