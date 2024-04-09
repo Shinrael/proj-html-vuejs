@@ -23,8 +23,8 @@
 
 <style lang="scss">
   .card{
-    border: 15px solid #e9e9e9;
-    border-radius: 0;
+    border: 15px solid #e9e9e9 !important;
+    border-radius: 0 !important;
     .card-body{
       border-top: 15px solid #e9e9e9;
       h5{
