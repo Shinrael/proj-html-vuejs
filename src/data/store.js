@@ -27,4 +27,21 @@ export const store = reactive({
     'Blog',
     'Contact'
   ],
+  cardsService : [
+    {
+      img: '../public/img/avada-movers-serviceonephoto-final.jpg',
+      title: 'Two Man Teams',
+      paragraph: 'Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam ac augue. Orci varius natoque penatibus et magnis dis parturient montes, ridiculus mus.'
+    },
+    {
+      img: '../public/img/avada-movers-servicetwophoto-final.jpg',
+      title: 'We Do All The Lifting',
+      paragraph: 'Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam ac augue. Orci varius natoque penatibus et magnis dis parturient montes, ridiculus mus.'
+    },
+    {
+      img: '../public/img/avada-movers-servicethreephoto-final.jpg',
+      title: 'Coast to Coast',
+      paragraph: 'Lorem ipsum dolor sit amet, consecteur adipiscing elit. Nullam ac augue. Orci varius natoque penatibus et magnis dis parturient montes, ridiculus mus.'
+    }
+  ]
 })
