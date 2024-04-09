@@ -2,12 +2,14 @@
 import { store } from './data/store';
 import Header from './components/Header.vue';
 import Hero from './components/Hero.vue';
+import Award from './components/Award.vue';
 import Footer from './components/Footer.vue';
 
   export default {
     components:{
       Header,
       Hero,
+      Award,
       Footer,
     },
     data(){
@@ -24,6 +26,7 @@ import Footer from './components/Footer.vue';
   <body>
     <Header />
     <Hero />
+    <Award />
     <Footer />
   </body>
 </template>
