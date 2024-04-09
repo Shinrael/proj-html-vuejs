@@ -12,10 +12,10 @@
 <template>
   <div class="card" style="width: 18rem;">
     <img :src="img" class="card-img-top" :alt="title">
-    <div class="card-body d-flex flex-column text-center ">
+    <div class="card-body d-flex flex-column text-center align-items-center ">
       <h5 class="card-title fw-bold my-3">{{ title }}</h5>
       <p class="card-text">{{ paragraph }}</p>
-      <button type="button" class="btn btn-primary my-2">READ MORE</button>
+      <button type="button" class="btn btn-primary my-2 w-auto">READ MORE</button>
     </div>
   </div>
 </template>
