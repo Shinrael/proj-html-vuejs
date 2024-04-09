@@ -4,25 +4,7 @@ import { store } from '../data/store'
   export default {
     data(){
       return{
-        store,
-        socialIcon : [
-    {
-      icon: 'fa-brands fa-facebook-f',
-      title: 'Facebook'
-    },
-    {
-      icon: 'fa-brands fa-twitter',
-      title: 'Twitter'
-    },
-    {
-      icon:'fa-brands fa-instagram',
-      title: 'Instagram'
-    },
-    {
-      icon: 'fa-brands fa-youtube',
-      title: 'Youtube'
-    }
-  ],
+        store,        
       }
     }
     
@@ -40,7 +22,7 @@ import { store } from '../data/store'
       <div class="h-right d-flex align-items-center justify-content-end pt-2">        
           <ul class="list-inline ">
             <li
-              v-for="icon in socialIcon"
+              v-for="icon in store.socialIcon"
               :key="icon.title"
               class="list-unstyled list-inline-item ms-2">
               <a class="text-white" href="#"><i :class="icon.icon"></i></a>

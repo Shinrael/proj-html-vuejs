@@ -5,14 +5,6 @@ import { store } from '../data/store'
     data(){
       return{
         store,
-        menuList : [
-          'Home',
-          'Rates',
-          'Testimonials',
-          'FAQ',
-          'Blog',
-          'Contact'
-        ],
         title : 'WE MAKE IT SIMPLE',
         pt : 'MOVING WITHOUT THE HASSLE',
         pb : 'PROFESSIONAL SERVICE WITH QUALITY AND CUSTOMERS SATISFACTION'
@@ -32,7 +24,7 @@ import { store } from '../data/store'
         <div class="menu-container d-flex align-items-center justify-content-end">
           <ul>
           <li
-            v-for="(list,index) in menuList"
+            v-for="(list,index) in store.menuList"
             :key="index"
             class="list-unstyled list-inline-item">
             <a class="text-decoration-none ms-4 fw-bold " href="#">{{ list }}</a>
