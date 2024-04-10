@@ -30,7 +30,7 @@ import { store } from '../data/store'
 
 
 <template>
-  <footer class="d-flex justify-content-center ">
+  <footer class="d-flex justify-content-center">
     <div class="footer-container text-white ">
       <div class="footer-top d-flex justify-content-center align-items-end">
         <p> &copy Copyright 2012 - 2020 | Avada Theme by ThemeFusion | All Right Reserved | Powered by WordPress</p>
@@ -53,7 +53,7 @@ import { store } from '../data/store'
 
 <style lang="scss" scoped>
 footer{
-  height: 150px;
+  height: 130px;
   background-color: #6bbb14;
   .footer-container{
     width: 60%;

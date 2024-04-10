@@ -7,6 +7,7 @@ import Service from './components/Service.vue';
 import MoveWithEase from './components/MoveWithEase.vue';
 import Testimonials from './components/Testimonials.vue';
 import Request from './components/Request.vue';
+import About from './components/About.vue';
 import Footer from './components/Footer.vue';
 
   export default {
@@ -18,6 +19,7 @@ import Footer from './components/Footer.vue';
       MoveWithEase,
       Testimonials,
       Request,
+      About,
       Footer,
     },
     data(){
@@ -39,6 +41,7 @@ import Footer from './components/Footer.vue';
     <MoveWithEase />
     <Testimonials/>
     <Request />
+    <About />
     <Footer />
   </body>
 </template>

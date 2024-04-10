@@ -33,7 +33,6 @@ import { store } from '../data/store'
     background-size: cover;
     .container-request{
       width: 60%;
-      border: 1px solid black;
       h2{
         color: #6bbb14;
         font-weight: 700;

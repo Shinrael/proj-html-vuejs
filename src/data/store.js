@@ -64,5 +64,21 @@ export const store = reactive({
       name: 'John Smith',
       description: '"Lorem ipsum dolor sit amet, consecteur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum."'
     },
+  ],
+
+  avadaMovers : [
+    '> Home',
+    '> Rates',
+    '> Testimonials',
+    '> Blog',
+    '> Free Quote'
+  ],
+
+  recentPosts : [
+    '> Heading Out To College?',
+    '> Moving Your Business?',
+    '> Outstanding Quality',
+    '> Cost Of Moving',
+    '> Best Moving Tips'
   ]
 })
