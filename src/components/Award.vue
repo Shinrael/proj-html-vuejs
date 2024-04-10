@@ -49,7 +49,6 @@ import { store } from '../data/store'
       width: 36%;      
       .award-bottom{
         height: calc(800px - 140px);
-        margin: 1px solid black;
         h6{
           color: #afaeae;
           font-size: .8rem;
@@ -61,6 +60,7 @@ import { store } from '../data/store'
           font-weight: 700;
           font-size: 2.3rem;
           padding-bottom: 15px;
+          width: 59%;
         }
         p{
           color: #6b6b6b;

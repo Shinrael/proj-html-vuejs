@@ -51,7 +51,7 @@ import { store } from '../data/store'
   .hero{
     background-image: url("../../public/img/avada-movers-homeherobackground-final.jpg");
     background-size: cover;
-    height: 800px;
+    height: 700px;
     .container-hero{
       width: 60%;
       .hero-head{

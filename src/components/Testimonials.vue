@@ -40,7 +40,7 @@ import Testimonialcard from './partials/Testimonialcard.vue'
 
 <style lang="scss" scoped>
   section{
-    height: 1000px;
+    height: 900px;
     background-image: url(../../public/img/avada-movers-testimonial-background.jpg);
     background-size: cover;
     .container-testimonial{

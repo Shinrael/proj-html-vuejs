@@ -41,7 +41,7 @@ import Cardservice from './partials/Cardservice.vue'
 
 <style lang="scss" scoped>
 section{
-  height: 1000px;
+  height: 900px;
   background-color: white;
   .container-service{
     width: 60%;
