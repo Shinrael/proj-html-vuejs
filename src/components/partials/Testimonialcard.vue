@@ -12,7 +12,7 @@
 <template>
   <div class="card-test">
     <div class="test-image mb-4">
-    <img :src="img" :alt="name" class="rounded-circle" width="90">
+    <img :src="img" :alt="name" class="rounded-circle" width="150">
     </div>
     <div class="test-content text-center d-flex flex-column align-items-center ">
     <h4 class="mb-4">{{ name }}</h4>
